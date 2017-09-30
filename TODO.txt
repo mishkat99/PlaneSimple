@@ -1,0 +1,3 @@
+-Go to next text input when user presses enter
+-Accept vector equations of planes
+-Add support for line segments and vectors

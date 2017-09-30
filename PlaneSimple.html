@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>PlaneSimple</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<script type="text/javascript" src="js/lib/three.min.js"></script>
+	<script type="text/javascript" src="js/addons/Detector.js"></script>
+	<script type="text/javascript" src="js/addons/OrbitControls.js"></script>
+	<script type="text/javascript" src="js/addons/TextSprite.js"></script>
+	<script type="text/javascript" src="js/addons/TextTexture.js"></script>
+	<script type="text/javascript" src="js/addons/Projector.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/PlaneSimple.css">
+</head>
+<body>
+
+
+
+
+<div id="PlaneSimple" style="position: fixed;">
+	<div id="UI">
+		<input type="number" id="x">
+		<label for="x">x + </label>
+		<input type="number" id="y">
+		<label for="y">y + </label>
+		<input type="number" id="z">
+		<label for="z">z =</label>
+		<input type="number" id="d">
+		<label for="d">(D)</label>
+		<button id="addBtn">Add New Plane</button>
+	</div>
+	<div id="lineRadio">
+		<input type="checkbox" id="toggleLOI">
+		<label for="toggleLOI">Show Lines of Intersection</label>
+	</div>
+	<div id="sidebar"></div>
+	<div id="overlay"></div>
+</div>
+
+<script type="text/javascript" src="js/PlaneSimple.js"></script>
+</body>
+</html>
